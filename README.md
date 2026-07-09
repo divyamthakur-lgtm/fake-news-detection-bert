@@ -61,6 +61,17 @@ pip install -r requirements.txt
 Open `fake_news_detection_bert.ipynb` in Google Colab (GPU runtime).  
 Run all cells in order. Gradio demo launches at the end.
 
+## Model Weights
+
+The fine-tuned model weights are not stored in this repository due to 
+size constraints. To use the trained model:
+
+**Option 1 — Retrain yourself:**  
+Run all cells in the notebook (~20 mins on Colab T4 GPU)
+
+**Option 2 — HuggingFace Hub (coming soon):**  
+Model will be uploaded to huggingface.co/divyamthakur/fake-news-bert
+
 ## Author
 
 **Divyam Thakur** | B.Tech AI/ML, Manipal University Jaipur
